@@ -7,11 +7,11 @@
     <title>calcmadera</title>
     <base href="/calcmadera/" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <link href="calcmadera/css/bootstrap/bootstrap.min.css" rel="stylesheet" />
-    <link href="calcmadera/css/app.css" rel="stylesheet" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="favicon.png" />
-    <link href="calcmadera/calcmadera.styles.css" rel="stylesheet" />
-    <link href="calcmadera/manifest.json" rel="manifest" />
+    <link href="calcmadera.styles.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
     <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
 </head>
@@ -56,12 +56,6 @@
         window.installq = function() {
         
             if (!isInstalled()) {
-             
-        
-
-
-
-                
                 let myModal = new bootstrap.Modal(document.getElementById('modal'));
                 myModal.show()
             }
